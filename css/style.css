@@ -1,0 +1,240 @@
+
+body {
+	overflow:scroll;
+}
+
+ul.dropdown-menu {
+	color:white;
+	padding-left:5px;
+	background-color:black;
+	background-image:linear-gradient(black,black);
+	box-shadow: 2px 1px 5px #888888;
+}
+
+
+.labelRed {
+	background-color:#F67474;
+	height:100px;
+	margin:10px;
+	color:white;
+	font-family:Verdana;
+	text-align:center;
+	border-radius:10px;
+	
+}
+
+#main-content{
+	
+}
+
+#map {
+        width: 500px;
+        height: 400px;
+      }
+	  
+.navbar-header{
+	margin-bottom:42px;
+} 
+#main-navbar{
+	background-image:linear-gradient(red,pink);
+	border:none;
+	height:150px;
+	transition:height .3s;
+}
+	  
+#univHindi {
+	padding-left:250px;
+	
+}
+
+#main-content {
+	margin-top:200px;
+}
+}
+
+
+
+@media (max-width: 699px) {
+	#univHindi{
+	padding-left:120px;
+	font-size:12px;
+}
+    #univEng{
+		font-size:12px;
+	}
+}
+
+
+
+}
+@font-face{
+	font-family: Nexa Bold;
+	src:url('../fonts/Nexa Bold.otf');
+}
+
+@font-face{
+	font-family: Nexa Light;
+	src:url('../fonts/Nexa Light.otf');
+}
+.branding{
+	transition: font-size .3s;
+	color:white;
+	font-family:Nexa Light;
+	margin-top:-5px;
+	font-size:2em;
+	
+	
+}
+
+.customLabel{
+	background-image:linear-gradient(red,pink);
+	color:white;
+	
+	
+}
+
+.customLabel:hover{
+	background-image:linear-gradient(black,black);
+}
+
+.customLabel:focus{
+	background-image:linear-gradient(black,black);
+}
+
+.menuText{
+	color:white;
+	font-family:Nexa Light;
+	font-size:17px
+}
+
+customActive{
+	background-image:none;
+	background-color:brown;
+}
+
+
+#toggleNav{
+  
+  background-image:linear-gradient(brown,#EC0707);
+  
+}
+#logo{
+  	
+  max-height:70px;
+}
+
+#newsBox{
+	
+	padding-top:5px;
+	padding-left:5px;
+	height:250px;
+	background-color:#F7F4F4;
+	width:220px;
+	
+}
+
+#newsHeading{
+	font-size:17px;
+	font-family:"Nexa Light";	
+}
+
+@media (max-width:766px)
+{
+	.customLabel{
+		background-image:none;
+		background-color:red;
+	}
+	
+	#main-navbar{
+		background-image:none;
+		background-color:red;
+		height:120px;
+	}
+	
+	.menuText{
+		font-size:17px;
+	}
+	
+}
+
+@media (max-width:1200px)
+{
+	.menuText {
+		font-size:1em;
+	}
+}
+
+
+@media (max-width:990px)
+{
+	.menuText {
+		font-size:.8em;
+	}
+}
+
+@media (max-width:766px)
+{
+	.menuText{
+		font-size: 17px;
+	}
+}
+
+@media  (max-width: 1209px){
+.branding{
+		font-size:1.5em;
+	}
+}
+
+@media (max-width:620px){
+	.branding{
+	font-size:1.3em;
+	}
+	#univHindi{
+		padding-left:200px;
+	}
+}
+
+@media (max-width:557px) {
+	#univHindi{
+		display: none;
+	}
+	#brandHindi{
+		display: none;
+	}
+	#logo{
+		position:fixed;
+		left:0px;
+		top:0px;
+		max-height:100px;
+	}
+	#univEng{
+		position:fixed;
+		top:60px;
+		left:75px;
+	}
+	#main-navbar{
+		height:100px;
+	}
+	#brandEng{
+		position:fixed;
+		left:75px;
+		top:20px;
+		font-size:20px;
+	}
+	#main-content{
+	margin-top:105px;
+	font-size:12px;
+	}
+	
+	
+}
+
+@media (max-width:360px)
+{
+	.navbar-toggle{
+		position:fixed;
+		margin-right:-10px;
+		top:40px;
+	}
+	
+}
