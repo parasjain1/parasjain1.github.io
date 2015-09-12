@@ -12,17 +12,6 @@ ul.dropdown-menu {
 }
 
 
-.labelRed {
-	background-color:#F67474;
-	height:100px;
-	margin:10px;
-	color:white;
-	font-family:Verdana;
-	text-align:center;
-	border-radius:10px;
-	
-}
-
 #main-content{
 	
 }
@@ -36,10 +25,13 @@ ul.dropdown-menu {
 	margin-bottom:42px;
 } 
 #main-navbar{
-	background-image:linear-gradient(red,pink);
+	background-image:-webkit-linear-gradient(#9973F4, #9973F4);
+	background-image:-o-linear-gradient(#9973F4, #9973F4);
+	background-image:linear-gradient(#220D45, #A598F5);
 	border:none;
-	height:150px;
+	height:200px;
 	transition:height .3s;
+	
 }
 	  
 #univHindi {
@@ -79,7 +71,7 @@ ul.dropdown-menu {
 .branding{
 	transition: font-size .3s;
 	color:white;
-	font-family:Nexa Light;
+	font-family:Comic Sans Ms;
 	margin-top:-5px;
 	font-size:2em;
 	
@@ -87,7 +79,8 @@ ul.dropdown-menu {
 }
 
 .customLabel{
-	background-image:linear-gradient(red,pink);
+	background-image:linear-gradient(#E0F70A,pink);
+	margin-top:50px;
 	color:white;
 	
 	
@@ -136,6 +129,21 @@ customActive{
 #newsHeading{
 	font-size:17px;
 	font-family:"Nexa Light";	
+}
+
+#brandEng{
+	margin-left:60px;
+	font-size:2.5em;
+	margin-top:33px;	
+}
+
+#tagLine{
+	font-size:20px;
+	margin-top:20px;
+	color:white;	
+	margin-left:600px;
+	font-family:Georgia;
+	
 }
 
 @media (max-width:766px)
@@ -237,4 +245,11 @@ customActive{
 		top:40px;
 	}
 	
+}
+
+#logo{
+max-height:90px;
+position:fixed;
+left:22px;
+top:30px;	
 }
