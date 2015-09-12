@@ -25,9 +25,8 @@ ul.dropdown-menu {
 	margin-bottom:42px;
 } 
 #main-navbar{
-	background-image:-webkit-linear-gradient(#9973F4, #9973F4);
-	background-image:-o-linear-gradient(#9973F4, #9973F4);
-	background-image:linear-gradient(#220D45, #A598F5);
+	
+	background-color:#220D45;
 	border:none;
 	height:200px;
 	transition:height .3s;
@@ -79,11 +78,19 @@ ul.dropdown-menu {
 }
 
 .customLabel{
-	background-image:linear-gradient(#E0F70A,pink);
+	background-color:#2B7016;
 	margin-top:50px;
 	color:white;
-	
-	
+}
+
+.Lrounded {
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;	
+}
+
+.Rrounded{
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
 }
 
 .customLabel:hover{
@@ -146,21 +153,35 @@ customActive{
 	
 }
 
+#runBy {
+	font-size:20px;
+	font-family:Georgia;
+	margin-top:-30px;
+	color:#C9CCCD;
+	margin-left:60px;
+}
 @media (max-width:766px)
 {
 	.customLabel{
 		background-image:none;
 		background-color:red;
+		margin-top:0px;
 	}
 	
 	#main-navbar{
 		background-image:none;
 		background-color:red;
-		height:120px;
+		height:150px;
 	}
 	
 	.menuText{
 		font-size:17px;
+	}
+	
+	#brandEng{
+		font-size:2em;
+		margin-top:-20px;
+		margin-left:100px;
 	}
 	
 }
